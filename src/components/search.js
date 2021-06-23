@@ -1,19 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+const api_key = "8685a66fbbfe185ed82e9f5c44b5e7f8";
 
-const Search = () => {
+function Search() {
   const [value, setValue] = useState("");
+  const trending = useTrendingMovies();
   const getRes = async (value) => {
-    const api_key = "8685a66fbbfe185ed82e9f5c44b5e7f8";
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${value}`;
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
   };
 
-  const handleSubmit = (e) => {
+  function handleSubmit(e) {
     e.preventDefault();
     getRes(value);
-  };
+  }
 
   return (
     <div className="wrapper">
@@ -29,8 +30,28 @@ const Search = () => {
           <input type="submit" />
         </span>
       </form>
+      <div className="trendingMovies">
+        {trending ? <img src={trending} /> : <div> Loading...</div>}
+      </div>
     </div>
   );
-};
+
+  function useTrendingMovies() {
+    const [trending, setTrending] = useState(null);
+    useEffect(() => {
+      (async function () {
+        const url = `https://api.themoviedb.org/3/trending/all/day?api_key=${api_key}`;
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data);
+        return setTrending(
+          data.results.map((result) => {
+            result.backdrop_path;
+          })
+        );
+      })();
+    }, []); //runs on mount
+  }
+}
 
 export default Search;
