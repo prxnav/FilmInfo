@@ -1,0 +1,436 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/wPjtacig0kIkVcTQmXoNt6jbMwo.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 617502,
+            "original_language": "en",
+            "original_title": "Jolt",
+            "overview": "Lindy is an acid-tongued woman with rage issues who controls her temper by shocking herself with an electrode vest. One day she makes a connection with Justin, who gives her a glimmer of hope for a shock-free future, but when he’s murdered she launches herself on a revenge-fueled rampage in pursuit of his killer.",
+            "poster_path": "/gYZAHan5CHPFXORpQMvOjCTug4E.jpg",
+            "release_date": "2021-07-29",
+            "title": "Jolt",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 171,
+            "popularity": 147.71,
+            "media_type": "movie"
+        },
+        {
+            "vote_average": 7.6,
+            "overview": "A woman with a mysterious illness is forced into action when a group of terrorists attempt to hijack a transatlantic overnight flight. In order to protect her son she will have to reveal a dark secret, and unleash the inner monster she has fought to hide.",
+            "id": 760883,
+            "adult": false,
+            "backdrop_path": "/ptCYQFZgC13KwZJNke8zxepZwu8.jpg",
+            "vote_count": 302,
+            "genre_ids": [
+                27,
+                53,
+                28
+            ],
+            "release_date": "2021-07-23",
+            "original_language": "de",
+            "original_title": "Blood Red Sky",
+            "poster_path": "/ky8Fua6PD7FyyOA7JACh3GDETli.jpg",
+            "title": "Blood Red Sky",
+            "video": false,
+            "popularity": 265.454,
+            "media_type": "movie"
+        },
+        {
+            "original_title": "Batman: The Long Halloween, Part Two",
+            "poster_path": "/5X1n5q08mZ7NpNpxehMFODxfNYq.jpg",
+            "video": false,
+            "vote_average": 7,
+            "overview": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.",
+            "id": 736074,
+            "vote_count": 8,
+            "adult": false,
+            "backdrop_path": "/3nVQMybCN16GPeVWkvgEVnmvk1U.jpg",
+            "title": "Batman: The Long Halloween, Part Two",
+            "genre_ids": [
+                16,
+                9648,
+                28,
+                80
+            ],
+            "release_date": "2021-07-26",
+            "original_language": "en",
+            "popularity": 87.406,
+            "media_type": "movie"
+        },
+        {
+            "overview": "Tragedy, betrayal and a mysterious discovery fuel a woman's vengeance for the loss of her tribe and family in this special episode of \"Kingdom.\"",
+            "release_date": "2021-07-23",
+            "adult": false,
+            "backdrop_path": "/pfcj8IYB5bK8RTWiHwOCGfIzVw6.jpg",
+            "vote_count": 149,
+            "genre_ids": [
+                18,
+                14,
+                53
+            ],
+            "poster_path": "/piGZDwFW4urLYDWGiYJMrt6hdCS.jpg",
+            "original_language": "ko",
+            "original_title": "킹덤: 아신전",
+            "id": 845222,
+            "title": "Kingdom: Ashin of the North",
+            "video": false,
+            "vote_average": 8,
+            "popularity": 159.386,
+            "media_type": "movie"
+        },
+        {
+            "release_date": "2021-07-07",
+            "adult": false,
+            "backdrop_path": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
+            "genre_ids": [
+                28,
+                12,
+                53,
+                878
+            ],
+            "vote_count": 3393,
+            "original_language": "en",
+            "original_title": "Black Widow",
+            "poster_path": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+            "vote_average": 8,
+            "video": false,
+            "id": 497698,
+            "title": "Black Widow",
+            "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+            "popularity": 4719.094,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Space Jam: A New Legacy",
+            "poster_path": "/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg",
+            "video": false,
+            "title": "Space Jam: A New Legacy",
+            "overview": "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+            "release_date": "2021-07-08",
+            "vote_count": 1263,
+            "adult": false,
+            "backdrop_path": "/8s4h9friP6Ci3adRGahHARVd76E.jpg",
+            "vote_average": 7.8,
+            "genre_ids": [
+                16,
+                35,
+                10751,
+                878
+            ],
+            "id": 379686,
+            "popularity": 5712.919,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "vote_average": 7.7,
+            "overview": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+            "release_date": "2021-05-21",
+            "adult": false,
+            "backdrop_path": "/AsqUSUqXrK8JfH8WEQnCXVbIAv6.jpg",
+            "vote_count": 2189,
+            "genre_ids": [
+                878,
+                53,
+                27
+            ],
+            "title": "A Quiet Place Part II",
+            "original_language": "en",
+            "original_title": "A Quiet Place Part II",
+            "poster_path": "/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg",
+            "id": 520763,
+            "popularity": 1215.898,
+            "media_type": "movie"
+        },
+        {
+            "poster_path": "/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg",
+            "vote_count": 601,
+            "video": false,
+            "vote_average": 7.8,
+            "overview": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
+            "release_date": "2021-06-30",
+            "title": "The Forever Purge",
+            "adult": false,
+            "backdrop_path": "/tehpKMsls621GT9WUQie2Ft6LmP.jpg",
+            "genre_ids": [
+                12,
+                53,
+                28,
+                27,
+                37
+            ],
+            "id": 602223,
+            "original_language": "en",
+            "original_title": "The Forever Purge",
+            "popularity": 4309.826,
+            "media_type": "movie"
+        },
+        {
+            "release_date": "2021-07-28",
+            "adult": false,
+            "backdrop_path": "/c4pWZeJ8589k0sUfSPAVrZKde9N.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 809968,
+            "original_language": "pl",
+            "original_title": "Bartkowiak",
+            "poster_path": "/yeiy6iZ5X75xXAN3SKmSpHZSAxt.jpg",
+            "vote_count": 0,
+            "video": false,
+            "vote_average": 0,
+            "title": "Bartkowiak",
+            "overview": "",
+            "popularity": 29.939,
+            "media_type": "movie"
+        },
+        {
+            "poster_path": "/szk2hXe7etcSgyp6WxXCW1an301.jpg",
+            "original_name": "How to Sell Drugs Online (Fast)",
+            "origin_country": [
+                "DE"
+            ],
+            "vote_average": 8.2,
+            "name": "How to Sell Drugs Online (Fast)",
+            "overview": "How do you win back your girlfriend from the school drug dealer? For Moritz, the answer is clear: sell better drugs. Out of his teenage bedroom, he joins forces with his best friend Lenny to launch what turns into an unexpectedly successful online drug market. Soon, as accidental drug dealers, they’re faced with standard drug empire problems: meeting demand, quality control, and, most importantly: not getting caught.",
+            "backdrop_path": "/k5LOQVkVhwq8qybNjwSdWpGghM7.jpg",
+            "vote_count": 313,
+            "genre_ids": [
+                35,
+                80,
+                18
+            ],
+            "id": 88236,
+            "original_language": "de",
+            "first_air_date": "2019-05-31",
+            "popularity": 190.232,
+            "media_type": "tv"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Hitman's Wife's Bodyguard",
+            "poster_path": "/6zwGWDpY8Zu0L6W4SYWERBR8Msw.jpg",
+            "video": false,
+            "title": "Hitman's Wife's Bodyguard",
+            "overview": "The world’s most lethal odd couple – bodyguard Michael Bryce and hitman Darius Kincaid – are back on another life-threatening mission. Still unlicensed and under scrutiny, Bryce is forced into action by Darius's even more volatile wife, the infamous international con artist Sonia Kincaid. As Bryce is driven over the edge by his two most dangerous protectees, the trio get in over their heads in a global plot and soon find that they are all that stand between Europe and a vengeful and powerful madman.",
+            "release_date": "2021-06-14",
+            "vote_count": 342,
+            "adult": false,
+            "backdrop_path": "/bjIPzixuWnOzxDG25WaXKuy9lYZ.jpg",
+            "vote_average": 7,
+            "genre_ids": [
+                28,
+                35,
+                53
+            ],
+            "id": 522931,
+            "popularity": 273.869,
+            "media_type": "movie"
+        },
+        {
+            "original_name": "Loki",
+            "backdrop_path": "/bZGAX8oMDm3Mo5i0ZPKh9G2OcaO.jpg",
+            "genre_ids": [
+                18,
+                10765
+            ],
+            "original_language": "en",
+            "name": "Loki",
+            "poster_path": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+            "vote_average": 8.2,
+            "id": 84958,
+            "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
+            "first_air_date": "2021-06-09",
+            "vote_count": 6867,
+            "origin_country": [
+                "US"
+            ],
+            "popularity": 2515.659,
+            "media_type": "tv"
+        },
+        {
+            "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal – a discovery that will change the future of medicine.",
+            "release_date": "2021-07-28",
+            "adult": false,
+            "backdrop_path": "/tbTjcH6l4SS6ccmdFsVDyKX2NZ9.jpg",
+            "genre_ids": [
+                12,
+                14,
+                35,
+                28
+            ],
+            "vote_count": 9,
+            "original_language": "en",
+            "original_title": "Jungle Cruise",
+            "poster_path": "/jFo94MnRCfkjFgvvT1vVbyudKGK.jpg",
+            "vote_average": 6.8,
+            "video": false,
+            "id": 451048,
+            "title": "Jungle Cruise",
+            "popularity": 625.372,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Trollhunters: Rise of the Titans",
+            "poster_path": "/zvUNFeTz0Sssb210wSiIiHRjA4W.jpg",
+            "video": false,
+            "vote_average": 8,
+            "title": "Trollhunters: Rise of the Titans",
+            "overview": "Arcadia may look like an ordinary town, but it lies at the center of magical and mystical lines that makes it a nexus for many battles among otherworldly creatures, including trolls, aliens, and wizards. Now, various heroes will team-up in an epic adventure where they must fight the Arcane Order for control over the magic that binds them all together.",
+            "release_date": "2021-07-21",
+            "vote_count": 82,
+            "adult": false,
+            "backdrop_path": "/3OwaKVZf3A2NdnarqKbwzFEhKir.jpg",
+            "id": 730840,
+            "genre_ids": [
+                16,
+                14,
+                10751,
+                28,
+                12,
+                878
+            ],
+            "popularity": 923.952,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "F9",
+            "id": 385128,
+            "title": "F9",
+            "video": false,
+            "vote_average": 7.5,
+            "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
+            "release_date": "2021-05-19",
+            "adult": false,
+            "backdrop_path": "/xXHZeb1yhJvnSHPzZDqee0zfMb6.jpg",
+            "vote_count": 750,
+            "genre_ids": [
+                28,
+                12,
+                80,
+                53
+            ],
+            "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
+            "popularity": 1613.337,
+            "media_type": "movie"
+        },
+        {
+            "title": "Luca",
+            "video": false,
+            "id": 508943,
+            "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
+            "release_date": "2021-06-17",
+            "adult": false,
+            "backdrop_path": "/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
+            "vote_count": 3255,
+            "genre_ids": [
+                16,
+                35,
+                10751,
+                14
+            ],
+            "vote_average": 8.1,
+            "original_language": "en",
+            "original_title": "Luca",
+            "poster_path": "/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+            "popularity": 2589.946,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "The Last Letter From Your Lover",
+            "poster_path": "/fDKK51YdOfu9pTmSRw7sHUhGFxm.jpg",
+            "video": false,
+            "vote_average": 7.6,
+            "title": "The Last Letter From Your Lover",
+            "overview": "A young journalist in London becomes obsessed with a series of letters she discovers that recounts an intense star-crossed love affair from the 1960s.",
+            "release_date": "2021-07-30",
+            "vote_count": 59,
+            "adult": false,
+            "backdrop_path": "/AmzVV7kqds8BJBXwnQtx5YpqFdU.jpg",
+            "id": 638449,
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "popularity": 70.61,
+            "media_type": "movie"
+        },
+        {
+            "overview": "The war for Eternia begins again in what may be the final battle between He-Man and Skeletor. A new animated series from writer-director Kevin Smith.",
+            "original_name": "Masters of the Universe: Revelation",
+            "origin_country": [
+                "US"
+            ],
+            "backdrop_path": "/eOLKWXXbcZJg91Jf1Fn7odUirl3.jpg",
+            "genre_ids": [
+                10759,
+                10765,
+                16
+            ],
+            "original_language": "en",
+            "vote_count": 83,
+            "id": 96658,
+            "name": "Masters of the Universe: Revelation",
+            "poster_path": "/vIhyANmvTiBjlmX0Uy48Z9AD24j.jpg",
+            "vote_average": 7.1,
+            "first_air_date": "2021-07-23",
+            "popularity": 236.923,
+            "media_type": "tv"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Old",
+            "poster_path": "/cGLL4SY6jFjjUZkz2eFxgtCtGgK.jpg",
+            "vote_count": 140,
+            "id": 631843,
+            "overview": "A family on a tropical holiday discovers that the secluded beach where they are staying is somehow causing them to age rapidly, reducing their entire lives into a single day.",
+            "release_date": "2021-07-21",
+            "vote_average": 6.6,
+            "video": false,
+            "adult": false,
+            "backdrop_path": "/q2mtFwvQQbun4nM9p16gA3Hqb0H.jpg",
+            "title": "Old",
+            "genre_ids": [
+                9648,
+                27
+            ],
+            "popularity": 443.65,
+            "media_type": "movie"
+        },
+        {
+            "original_language": "en",
+            "original_title": "Wrath of Man",
+            "id": 637649,
+            "video": false,
+            "vote_average": 7.9,
+            "overview": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+            "release_date": "2021-04-22",
+            "vote_count": 1575,
+            "adult": false,
+            "backdrop_path": "/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
+            "title": "Wrath of Man",
+            "genre_ids": [
+                80,
+                28,
+                53
+            ],
+            "poster_path": "/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+            "popularity": 1626.659,
+            "media_type": "movie"
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}
