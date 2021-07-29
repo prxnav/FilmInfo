@@ -3,6 +3,7 @@ const api_key = "8685a66fbbfe185ed82e9f5c44b5e7f8";
 
 function Search() {
   const [value, setValue] = useState("");
+  const [Result , setResult] = useState(null);
   const movies = useRandomMovies();
   
   const getRes = async (value) => {
@@ -10,6 +11,7 @@ function Search() {
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
+    return setResult(data.map((x)=>{}));
   };
 
   function handleSubmit(e) {
@@ -53,10 +55,13 @@ function useRandomMovies(){
 
 function LandingData({movies}){
   return movies.map((x) => 
-  <div key={x.id}>
-    <h3> {x.original_title}</h3>
-    <img src={`http://image.tmdb.org/t/p/w500/${x.poster_path}`}></img>
-  </div>)
+  <div className="listWrapper">
+    <div key={x.id}>
+      <h3> {x.original_title}</h3>
+      <img src={`http://image.tmdb.org/t/p/w500/${x.poster_path}`}></img>
+    </div>
+  </div>
+  )
 }
 
 
