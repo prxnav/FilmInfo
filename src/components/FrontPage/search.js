@@ -3,15 +3,16 @@ const api_key = "8685a66fbbfe185ed82e9f5c44b5e7f8";
 
 function Search() {
   const [value, setValue] = useState("");
-  const [Result , setResult] = useState(null);
+  const [result , setResult] = useState(null);
   const movies = useRandomMovies();
   
   const getRes = async (value) => {
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${value}`;
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
-    return setResult(data.map((x)=>{}));
+    console.log(result);
+    return setResult(data.results.map((x)=>({id:x.id,original_title:x.original_title,poster_path:x.poster_path,
+    release_date:x.release_date, overview:x.overview, voter_average:x.voter_average})));
   };
 
   function handleSubmit(e) {
