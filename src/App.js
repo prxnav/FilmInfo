@@ -3,9 +3,12 @@ import Search from "./components/FrontPage/search.js";
 
 function App() {
   return (
-    <div className="App">
-      <Search />
-    </div>
+    
+      <div className="App">
+        <Search />
+        
+      </div>
+    
   );
 }
 
