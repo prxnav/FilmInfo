@@ -43,25 +43,22 @@ function Search() {
           <input type="submit" />
         </span>
       </form>
-      {result ? (
-      <div className="title">
+      
+      {result ? 
+      (<div className="title">
         <h1 className="search">{value}</h1>
         <h3>Search Results</h3>
       </div>) 
-      : (
-      <div className="title">
+      : 
+      (<div className="title">
       <h1>Trending</h1><h3>Movies</h3></div>)}
-      {result ? (
-        <LandingData movies={result} />
-      ) : (
-        <div className="MovieCards">
-          {movies ? <LandingData movies={movies} style={{
-            maxWidth:"95%",
-            border: "1px solid #e3e3e3",
-            borderRadius: "5px"
-          }} /> : <div> Loading... </div>}
-        </div>
-      )}
+      
+      {result ? 
+      (<LandingData movies={result} />) 
+      : 
+      (<div className="MovieCards">
+        {movies ? <LandingData movies={movies} /> : <div> Loading... </div>}
+      </div>)}
     </div>
   );
 }
@@ -86,15 +83,15 @@ function useRandomMovies() {
 }
 
 function LandingData({ movies }) {
-  return movies.map((x) => (
-    <div className="listWrapper">
-      <div key={x.id}>
-        <h3> {x.original_title}</h3>
-        <img src={`http://image.tmdb.org/t/p/w200/${x.poster_path}`}></img>
-        <p>{x.voter_average}</p>
-      </div>
-    </div>
-  ));
+  return <div className="listWrapper">
+      {movies.map((x)=>(
+        <div className="listItems" key={x.id}>
+          <img 
+          src={`http://image.tmdb.org/t/p/w200/${x.poster_path}`}/>
+          <h3> {x.original_title}</h3>
+        </div>
+      ))}
+  </div> 
 }
 
 export default Search;

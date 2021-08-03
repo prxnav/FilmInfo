@@ -1,5 +1,23 @@
-.title{
-    font-family:Arial, Helvetica, sans-serif;
-    display:flex;
-    align-items: center;
+.html{
+    height:100%;
 }
+
+h3{
+    word-break:break-word;
+    width:200px;
+}
+
+.font-link{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.listWrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.listWrapper > div {
+    margin:35px;
+}
+
