@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
 import "./search.css";
 
+import React, { useEffect, useState } from "react";
 
 const api_key = "8685a66fbbfe185ed82e9f5c44b5e7f8";
 
@@ -31,8 +31,8 @@ function Search() {
 
   return (
     <div className="wrapper">
-      
-        <form onSubmit={handleSubmit}>
+       <form onSubmit={handleSubmit}>
+      <div className="s-form">
           <input
               type="search"
               value={value}
@@ -40,18 +40,15 @@ function Search() {
               name="query"
               onChange={(e) => setValue(e.target.value)}
             />
-            <i class="fa fa-search"></i>
-        </form>
-      
-      
+          <i class="fa fa-search"></i>
+      </div>
+      </form>
       {result ? 
       (<div className="title">
-        <h1 className="search">{value}</h1>
-        <h3>SEARCH RESULTS</h3>
-      </div>) 
+        <h1 className="search" style={{marginBottom:0}}><b>{value}</b></h1><h3 style={{marginTop:0 , marginLeft:-21}}>SEARCH RESULTS</h3></div>) 
       : 
       (<div className="title">
-      <h1>POPULAR</h1><h3>MOVIES</h3></div>)}
+      <h2 style={{marginBottom:0}}> POPULAR</h2><h4 style={{marginTop:0}}>MOVIES</h4></div>)}
       
       {result ? 
       (<LandingData movies={result} />) 
@@ -59,9 +56,10 @@ function Search() {
       (<div className="MovieCards">
         {movies ? <LandingData movies={movies} /> : <div> Loading... </div>}
       </div>)}
-    </div>
+    </div>  
   );
 }
+
 function useRandomMovies() {
   const [movies, setMovies] = useState(null);
   useEffect(() => {
