@@ -48,7 +48,7 @@ function Search() {
         <h1 className="search" style={{marginBottom:0}}><b>{value}</b></h1><h3 style={{marginTop:0 , marginLeft:-21}}>SEARCH RESULTS</h3></div>) 
       : 
       (<div className="title">
-      <h2 style={{marginBottom:0}}> POPULAR</h2><h4 style={{marginTop:0}}>MOVIES</h4></div>)}
+      <h1 style={{marginBottom:0}}> POPULAR</h1><h3 style={{marginTop:0, marginLeft:-65}}>MOVIES</h3></div>)}
       
       {result ? 
       (<LandingData movies={result} />) 
@@ -87,8 +87,8 @@ function LandingData({ movies }) {
         <div className="listItems" key={x.id}>
           <img 
           src={`http://image.tmdb.org/t/p/w200/${x.poster_path}`}/>
-          <h3> {x.original_title}</h3>
-          <p>{x.vote}</p>
+          <h3 style={{letterSpacing:1, fontSize:15}}> {x.original_title}</h3>
+          <p style={{fontSize:20}}>{x.vote}</p>
         </div>
       ))}
   </div> 
